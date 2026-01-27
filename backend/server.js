@@ -18,7 +18,8 @@ const server = http.createServer(app)
 // middlewares
 const allowedOrigins = [
 
-    "https://chat-app-frontend-seven-ashy.vercel.app"
+    process.env.CLIENT_URL
+
 ];
 
 // middlewares
