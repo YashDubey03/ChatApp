@@ -18,6 +18,11 @@ const server = http.createServer(app)
 // middlewares
 const allowedOrigins = [
 
+    // previous url 5173
+    // "http://localhost:5173",
+    // "http://localhost:5173",
+
+
     process.env.CLIENT_URL
 
 ];
